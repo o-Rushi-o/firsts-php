@@ -58,4 +58,11 @@
       </div>
     </section>
   </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 1450,
+    });
+  </script>
 </html>

@@ -58,7 +58,7 @@
       navList.classList.remove("open");
     };
   </script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></sc>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
       offset: 300,

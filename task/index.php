@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    
+    <link rel="stylesheet" href="index.css" />
+
     <!-- remix icon link -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
@@ -24,16 +24,31 @@
   </head>
   <body>
     <div>
-    <?php include "navbar.php"; ?>
-    <section class="home">
+      <?php include "navbar.php"; ?>
+      <section class="home">
         <div class="home-text" data-aos="fade-up">
           <h6>New Arrivals</h6>
-          <h1>New Arrivals <br> ready to rock</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas blanditiis laudantium amet.</p>
-          <a href="#" class="btn">Shop Now<i class="ri-arrow-right-line"></i></a>
+          <h1>
+            New Arrivals <br />
+            ready to rock
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            blanditiis laudantium amet.
+          </p>
+          <a href="#" class="btn"
+            >Shop Now<i class="ri-arrow-right-line"></i
+          ></a>
         </div>
-    </section>
-    <?php include "footer.php"; ?>
+      </section>
+      <?php include "footer.php"; ?>
     </div>
   </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 1450,
+    });
+  </script>
 </html>
